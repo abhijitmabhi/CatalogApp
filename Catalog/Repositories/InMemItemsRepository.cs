@@ -2,7 +2,7 @@
 
 namespace Catalog.Repositories
 {
-    public class InMemItemsRepository
+    public class InMemItemsRepository : IInMemItemsRepository
     {
         public readonly List<Item> items = new()
         {
